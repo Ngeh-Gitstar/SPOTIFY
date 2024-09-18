@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #181818;
+            color: #fff;
+        }
+        .header {
+            background-color: #1db954;
+            padding: 20px;
+            text-align: center;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .sidebar {
+            width: 20%;
+            background-color: #282828;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 60px;
+        }
+        .content {
+            margin-left: 20%;
+            padding: 20px;
+        }
+        .album {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .album-item {
+            width: 200px;
+            text-align: center;
+        }
+        .album-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .footer {
+            background-color: #181818;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            text-align: center;
+            border-top: 1px solid #404040;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Spotify Clone</h1>
+    </div>
+    
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">Search</a>
+        <a href="#">Your Library</a>
+    </div>
+
+    <div class="sidebar">
+        <h2>Playlists</h2>
+        <ul>
+            <li><a href="#">Liked Songs</a></li>
+            <li><a href="#">Discover Weekly</a></li>
+            <li><a href="#">Release Radar</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h2>Albums</h2>
+        <div class="album">
+            <div class="album-item">
+                <img src="album1.jpg" alt="Album 1">
+                <p>Album 1</p>
+            </div>
+            <div class="album-item">
+                <img src="album2.jpg" alt="Album 2">
+                <p>Album 2</p>
+            </div>
+            <div class="album-item">
+                <img src="album3.jpg" alt="Album 3">
+                <p>Album 3</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Spotify Clone - Now Playing: [Song Title]</p>
+    </div>
+</body>
+</html>
