@@ -1,2 +1,2 @@
 # SPOTIFY
-spotify application
+spotify application clone
