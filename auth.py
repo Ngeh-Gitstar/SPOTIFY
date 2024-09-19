@@ -1,5 +1,11 @@
 class auth:
     print ("auth")
+<<<<<<< HEAD
+    class account id:
+ accountnumber:int
+accountname:str
+=======
+>>>>>>> bb6c0c7acd5300d25c39e004132cbef448860679
     # Simple user authentication script
 
 # Sample user database (In practice, use a real database)
@@ -20,4 +26,8 @@ username_input = input("Enter your username: ")
 password_input = input("Enter your password: ")
 
 auth_result = authenticate(username_input, password_input)
+<<<<<<< HEAD
 print(auth_result)
+=======
+print(auth_result)
+>>>>>>> bb6c0c7acd5300d25c39e004132cbef448860679
